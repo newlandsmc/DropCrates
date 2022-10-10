@@ -1,0 +1,9 @@
+name: DropCrates
+version: '${version}'
+main: me.byteful.plugin.dropcrates.DropCratesPlugin
+api-version: 1.19
+depend:
+  - JakesRTP
+  - WorldEdit
+author: byteful
+description: An automatic events plugin that drops loot crates around the world on a fixed schedule and announces their location in chat.
